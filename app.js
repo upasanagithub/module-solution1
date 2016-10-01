@@ -1,7 +1,7 @@
 
   var app=angular.module("app",[]);
   app.controller("myController",function($scope){
-    $scope.val="ups";
+  
   $scope.count=function(){
 
     var str = $scope.items.toString();
